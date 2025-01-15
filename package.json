@@ -1,0 +1,19 @@
+{
+  "name": "flow2code",
+  "version": "1.0.0",
+  "description": "convert flowcharts to code instantly",
+  "main": "index.js",
+  "scripts": {
+       "dev": "concurrently \"cd backend && npm run dev\" \"cd frontend && npm start\" "
+   },
+
+  "repository": {
+    "type": "git",
+    "url": "flow2code"
+  },
+  "author": "Daksh Joshi",
+  "license": "ISC",
+  "devDependencies": {
+    "concurrently": "^9.1.2"
+  }
+}
